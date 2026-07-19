@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using Anchor Tag </title>
+</head>
+<body>
+    <a href="https://claude.ai/new"> Claude Ai</a> <br>
+    <!-- Here we are using anchor tag to create a link to another webpage -->
+
+    <a href="https://www.istockphoto.com/en/video/schaefler-altenalptuerme-mountain-ridge-swiss-alpstein-appenzell-innerrhoden-gm1397640527-452005025" target="_blank">IStock Photo</a> <br>
+    <!-- Here we are using anchor with a new attribute ( target="_blank" ). It opens the link in a new tab. -->
+    <a href="https://www.istockphoto.com/en/video/schaefler-altenalptuerme-mountain-ridge-swiss-alpstein-appenzell-innerrhoden-gm1397640527-452005025" target="_blank" rel="noopener noreferrer">IStock Photo</a> <br>
+    <!-- we are using the real attribute ( rel="noopener noreferrer") What target="_blank" does: opens the link in a new tab. Handy, but by default the new tab gets a special JavaScript connection back to our original page (through window.opener). That means, in theory, the site you linked to could mess with your original tab — redirect it to a fake login page, etc. It's a well-known security gap in browsers. -->
+</body>
+</html>
